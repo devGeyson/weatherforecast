@@ -3,9 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <title>Weather Forecast</title>
 </head>
 <body>
-    
+    <div class="container">
+        <form action="" class="search">
+            <i class="fa-solid fa-location-dot"></i>
+            <input 
+                type="search"
+                name="city_name" 
+                id="city_name"
+                placeholder="Buscar cidade"
+                >
+            <button type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
+
+        <div class="weather">
+            <h1 class="tittle">João Pessoa, BR</h1>
+
+            <div class="infos">
+                <div class="temp">
+                    <img src="" alt="" class="temp img">
+
+                    <div>
+                        <p class="temp_value">
+                        32 <sup>c</sup>
+                        </p>
+                        <p class="temp_description">
+                        Ensolarado
+                        </p>
+                    </div>
+                </div>
+
+                <div class="other_infos">
+                    <div class="sub_infos">
+                        <i id="temp_max_icon" class="fa-solid fa-temperature-high"></i>
+
+                        <div>
+                            <h2>Temp. Max</h2>
+                            <p class="tempmax">
+                            32 <sup>c</sup>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="sub_infos">
+                        <i id="temp_min_icon" class="fa-solid fa-temperature-low"></i>
+
+                        <div>
+                            <h2>Temp. Min</h2>
+                            <p class="tempmin">
+                            14 <sup>c</sup>
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="sub_infos">
+                        <i id="umity_icon" class="fa-solid fa-droplet"></i>
+
+                        <div>
+                            <h2>Umidade</h2>
+                            <p class="umity">
+                            50%
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="sub_infos">
+                        <i id="wind_icon" class="fa-solid fa-wind"></i>
+
+                        <div>
+                            <h2>Vento</h2>
+                            <p class="wind">
+                            50 km/h
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="alert"></div>
+    </div>
 </body>
 </html>
