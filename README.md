@@ -2,7 +2,7 @@
 
 ## 📌 Descrição do Projeto
 
-O **WeatherForecast** é uma aplicação web desenvolvida com o objetivo de fornecer previsões meteorológicas de forma simples, clara e acessível.  
+O **WeatherForecast** é uma aplicação web desenvolvida com o objetivo de fornecer condições meteorológicas de forma simples, clara e acessível.  
 A aplicação permite ao usuário consultar informações climáticas atualizadas a partir de uma API externa, apresentando dados como temperatura, umidade, velocidade do vento e demais indicadores relevantes.
 
 Este projeto foi construído com foco em boas práticas de desenvolvimento front-end, consumo de APIs e criação de interfaces intuitivas.
