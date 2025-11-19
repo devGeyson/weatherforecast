@@ -135,5 +135,9 @@ body{
     color: #7c3aed;
 }
 
+.alert{
+    display: flex;
+    align-items: center;
+}
 
 
